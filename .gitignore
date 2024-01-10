@@ -289,7 +289,8 @@ dist/
 
 # Visual Studio 6 build log
 *.plg
-.github
+# .github
+
 # Visual Studio 6 workspace options file
 *.opt
 
