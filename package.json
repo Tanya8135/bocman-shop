@@ -1,0 +1,31 @@
+{
+  "name": "bocman-shop",
+  "version": "2.0.0",
+  "description": "",
+  "homepage": "https://github.com/Tanya8135/bocman-shop.git",
+  "scripts": {
+    "start": "parcel src/*.html",
+    "build": "parcel build src/*.html --public-url /bocman-shop/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tanya8135/bocman-shop.git"
+  },
+  "keywords": [],
+  "author": "no name",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tanya8135/bocman-shop.git"
+  },
+  "devDependencies": {
+    "parcel": "^2.11.0"
+  },
+  "dependencies": {
+    "@parcel/transformer-sass": "^2.6.0",
+    "buffer": "^6.0.3",
+    "modern-normalize": "^2.0.0",
+    "parcel-reporter-clean-dist": "^1.0.4",
+    "posthtml-include": "^1.7.4"
+  },
+  "browserslist": "> 0.5%, last 2 versions, not dead"
+}
