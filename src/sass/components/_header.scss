@@ -1,5 +1,50 @@
 .header-mob {
-    display: flex;
-    justify-content: space-between;
-    padding: 0 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 15px;
+}
+
+.logo-s {
+  outline: none;
+  border: none;
+  cursor: none;
+}
+
+.header-nav-mob {
+  display: flex;
+  align-items: center;
+}
+
+.icon-phone-box {
+  padding: 5px;
+}
+
+.icon-phone {
+  margin-right: 28px;
+  //   padding: 20px 5px 5px 5px;
+  fill: $phone;
+  outline: none;
+  border: none;
+  cursor: none;
+
+  &:hover {
+    fill: $accent;
+  }
+}
+
+.burger-menu {
+  fill: $burger-menu;
+
+  &:hover {
+    fill: $accent;
+  }
+}
+
+.burger-menu {
+  cursor: none;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  padding: 10px 2px;
 }

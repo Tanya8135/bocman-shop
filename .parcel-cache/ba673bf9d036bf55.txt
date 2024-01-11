@@ -1,6 +1,6 @@
 6434
 64D:\work-portfolio\bocman-shop\node_modules\fastq\test\promise.js133493478836083264 0
-44D:\work-portfolio\bocman-shop\src\sass\utils133493618172501330 1
+44D:\work-portfolio\bocman-shop\src\sass\utils133494567411360907 1
 71D:\work-portfolio\bocman-shop\node_modules\fast-glob\out\types\index.js133493478836286858 0
 88D:\work-portfolio\bocman-shop\node_modules\lmdb\node_modules\node-addon-api\package.json133493471228736664 0
 72D:\work-portfolio\bocman-shop\node_modules\fast-glob\out\utils\stream.js133493478836374320 0
@@ -29,7 +29,7 @@
 65D:\work-portfolio\bocman-shop\node_modules\source-map\lib\util.js133493471228367767 0
 86D:\work-portfolio\bocman-shop\node_modules\@nodelib\fs.scandir\out\providers\common.js133493478836031798 0
 101D:\work-portfolio\bocman-shop\node_modules\@parcel\optimizer-htmlnano\node_modules\svgo\lib\parser.js133493471229540444 0
-33D:\work-portfolio\bocman-shop\src133493618172481322 1
+33D:\work-portfolio\bocman-shop\src133494567411360907 1
 72D:\work-portfolio\bocman-shop\node_modules\fast-glob\out\utils\string.js133493478836374320 0
 68D:\work-portfolio\bocman-shop\node_modules\dotenv-expand\lib\main.js133493471227317230 0
 59D:\work-portfolio\bocman-shop\node_modules\@swc\helpers\cjs133493471230851160 1
@@ -112,7 +112,7 @@
 95D:\work-portfolio\bocman-shop\node_modules\dom-serializer\node_modules\entities\lib\encode.d.ts133493471228637936 0
 118D:\work-portfolio\bocman-shop\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\lib\syntax\node\Comment.js133493471228726692 0
 68D:\work-portfolio\bocman-shop\node_modules\lines-and-columns\LICENSE133493471226093640 0
-34D:\work-portfolio\bocman-shop\dist133494565185507549 1
+34D:\work-portfolio\bocman-shop\dist133494734686645197 1
 64D:\work-portfolio\bocman-shop\node_modules\csso\dist\csso.esm.js133493471230375830 0
 111D:\work-portfolio\bocman-shop\node_modules\@parcel\optimizer-htmlnano\node_modules\csso\lib\restructure\prepare133493471229769664 1
 93D:\work-portfolio\bocman-shop\node_modules\csso\node_modules\css-tree\cjs\tokenizer\utils.cjs133493471231219005 0
@@ -124,7 +124,7 @@
 69D:\work-portfolio\bocman-shop\node_modules\mdn-data\css\syntaxes.json133493471228968692 0
 70D:\work-portfolio\bocman-shop\node_modules\@parcel\utils\src\schema.js133493471230426610 0
 52D:\work-portfolio\bocman-shop\node_modules\is-number133493471226739661 1
-40D:\work-portfolio\bocman-shop\src\images133494550770687648 1
+40D:\work-portfolio\bocman-shop\src\images133494567411360907 1
 64D:\work-portfolio\bocman-shop\node_modules\ordered-binary\assets133493471228206239 1
 78D:\work-portfolio\bocman-shop\node_modules\type-fest\source\readonly-deep.d.ts133493471229279730 0
 47D:\work-portfolio\bocman-shop\package-lock.json133493481269788751 0
@@ -158,7 +158,7 @@
 91D:\work-portfolio\bocman-shop\node_modules\caniuse-lite\data\features\css-featurequeries.js133493471231614405 0
 60D:\work-portfolio\bocman-shop\node_modules\commander\typings133493471227830331 1
 62D:\work-portfolio\bocman-shop\node_modules\has-flag\index.d.ts133493471226276187 0
-42D:\work-portfolio\bocman-shop\src\partials133493618172491336 1
+42D:\work-portfolio\bocman-shop\src\partials133494567411360907 1
 98D:\work-portfolio\bocman-shop\node_modules\@parcel\optimizer-svgo\node_modules\css-tree\lib\common133493471231278006 1
 81D:\work-portfolio\bocman-shop\node_modules\@swc\helpers\esm\_non_iterable_rest.js133493471231549590 0
 97D:\work-portfolio\bocman-shop\node_modules\csso\node_modules\css-tree\cjs\syntax\function\var.cjs133493471231253473 0
@@ -173,7 +173,7 @@
 65D:\work-portfolio\bocman-shop\node_modules\picomatch\package.json133493471227721169 0
 81D:\work-portfolio\bocman-shop\node_modules\@parcel\packager-js\lib\DevPackager.js133493471227398372 0
 74D:\work-portfolio\bocman-shop\src\fonts\montserrat-v26-latin-regular.woff2133493618172481322 0
-38D:\work-portfolio\bocman-shop\src\sass133494562293879657 1
+38D:\work-portfolio\bocman-shop\src\sass133494567411360907 1
 73D:\work-portfolio\bocman-shop\node_modules\@parcel\core\lib\AssetGraph.js133493471229067150 0
 52D:\work-portfolio\bocman-shop\node_modules\@mischnic133493471215397833 1
 73D:\work-portfolio\bocman-shop\node_modules\postcss-value-parser\README.md133493471227677207 0
@@ -185,14 +185,14 @@
 77D:\work-portfolio\bocman-shop\node_modules\@swc\helpers\_\_throw\package.json133493471232525731 0
 62D:\work-portfolio\bocman-shop\node_modules\merge2\package.json133493478836021669 0
 134D:\work-portfolio\bocman-shop\node_modules\@parcel\optimizer-htmlnano\node_modules\css-select\lib\pseudo-selectors\subselects.d.ts.map133493471228968692 0
-49D:\work-portfolio\bocman-shop\src\sass\components133494562381382234 1
+49D:\work-portfolio\bocman-shop\src\sass\components133494567411360907 1
 112D:\work-portfolio\bocman-shop\node_modules\parcel-reporter-clean-dist\test\fixtures\packageV5\files\embed\embed2133493478836618810 1
 76D:\work-portfolio\bocman-shop\node_modules\caniuse-lite\data\features\let.js133493471233398042 0
 118D:\work-portfolio\bocman-shop\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\lib\syntax\atrule\media.js133493471230694428 0
 55D:\work-portfolio\bocman-shop\node_modules\svgo\LICENSE133493471226103626 0
 83D:\work-portfolio\bocman-shop\node_modules\@parcel\events\test\ValueEmitter.test.js133493471228213256 0
 62D:\work-portfolio\bocman-shop\node_modules\type-fest\readme.md133493471226709970 0
-49D:\work-portfolio\bocman-shop\src\sass\index.scss133494562570207760 0
+49D:\work-portfolio\bocman-shop\src\sass\index.scss133494567411360907 0
 66D:\work-portfolio\bocman-shop\node_modules\micromatch\package.json133493471226520309 0
 63D:\work-portfolio\bocman-shop\node_modules\@swc\types\README.md133493471227414575 0
 89D:\work-portfolio\bocman-shop\node_modules\csso\node_modules\css-tree\dist\csstree.esm.js133493471231599324 0
@@ -231,14 +231,14 @@
 54D:\work-portfolio\bocman-shop\src\sass\base\_base.scss133493618172491336 0
 99D:\work-portfolio\bocman-shop\node_modules\@parcel\optimizer-svgo\node_modules\svgo\lib\svgo\coa.js133493471228457836 0
 64D:\work-portfolio\bocman-shop\node_modules\browserslist\parse.js133493471227555058 0
-60D:\work-portfolio\bocman-shop\src\sass\utils\_variables.scss133494543893947687 0
+60D:\work-portfolio\bocman-shop\src\sass\utils\_variables.scss133494574249807031 0
 86D:\work-portfolio\bocman-shop\node_modules\htmlnano\lib\modules\removeOptionalTags.mjs133493471230931169 0
 65D:\work-portfolio\bocman-shop\node_modules\semver\functions\lt.js133493471228842269 0
 73D:\work-portfolio\bocman-shop\node_modules\domutils\lib\manipulation.d.ts133493471228925573 0
 49D:\work-portfolio\bocman-shop\node_modules\braces133493471227176424 1
 96D:\work-portfolio\bocman-shop\node_modules\caniuse-lite\data\features\css-hanging-punctuation.js133493471231713132 0
 70D:\work-portfolio\bocman-shop\node_modules\@parcel\fs\lib\index.js.map133493471228736664 0
-62D:\work-portfolio\bocman-shop\src\sass\components\_header.scss133494564918479492 0
+62D:\work-portfolio\bocman-shop\src\sass\components\_header.scss133494734686445892 0
 75D:\work-portfolio\bocman-shop\node_modules\@swc\helpers\_\_class_call_check133493471231976980 1
 66D:\work-portfolio\bocman-shop\node_modules\mdn-data\css\units.json133493471229210544 0
 64D:\work-portfolio\bocman-shop\node_modules\resolve-from\index.js133493471226282683 0
@@ -251,15 +251,15 @@
 56D:\work-portfolio\bocman-shop\node_modules\color-convert133493471227421198 1
 76D:\work-portfolio\bocman-shop\node_modules\caniuse-lite\dist\lib\statuses.js133493471234218191 0
 109D:\work-portfolio\bocman-shop\node_modules\@parcel\optimizer-htmlnano\node_modules\svgo\plugins\mergePaths.js133493471229338186 0
-54D:\work-portfolio\bocman-shop\src\partials\header.html133494565181200359 0
+54D:\work-portfolio\bocman-shop\src\partials\header.html133494587811890059 0
 108D:\work-portfolio\bocman-shop\node_modules\@swc\helpers\src\_class_check_private_static_field_descriptor.mjs133493471232879703 0
 52D:\work-portfolio\bocman-shop\node_modules\@trysound133493471215472391 1
 66D:\work-portfolio\bocman-shop\node_modules\weak-lru-cache\index.js133493471226709970 0
 93D:\work-portfolio\bocman-shop\node_modules\css-select\lib\esm\pseudo-selectors\aliases.js.map133493471229250629 0
-50D:\work-portfolio\bocman-shop\src\images\icons.svg133494549284444219 0
+50D:\work-portfolio\bocman-shop\src\images\icons.svg133494567411360907 0
 86D:\work-portfolio\bocman-shop\node_modules\csso\node_modules\css-tree\cjs\syntax\scope133493471231235207 1
 100D:\work-portfolio\bocman-shop\node_modules\css-select\node_modules\domutils\lib\esm\helpers.d.ts.map133493471228968692 0
-55D:\work-portfolio\bocman-shop\src\images\logoBocman.svg133494550442388216 0
+55D:\work-portfolio\bocman-shop\src\images\logoBocman.svg133494567411360907 0
 72D:\work-portfolio\bocman-shop\node_modules\@swc\helpers\scripts\build.js133493471231779151 0
 67D:\work-portfolio\bocman-shop\node_modules\is-binary-path\readme.md133493478836103651 0
 70D:\work-portfolio\bocman-shop\node_modules\normalize-path\package.json133493478835888752 0
@@ -4043,7 +4043,7 @@
 77D:\work-portfolio\bocman-shop\node_modules\@nodelib\fs.scandir\out\index.d.ts133493478836323595 0
 96D:\work-portfolio\bocman-shop\node_modules\css-select\node_modules\domhandler\lib\esm\index.d.ts133493471228331557 0
 74D:\work-portfolio\bocman-shop\node_modules\caniuse-lite\data\regions\VN.js133493471234545888 0
-45D:\work-portfolio\bocman-shop\dist\index.html133494565185206920 0
+45D:\work-portfolio\bocman-shop\dist\index.html133494587812250916 0
 100D:\work-portfolio\bocman-shop\node_modules\css-select\node_modules\domhandler\lib\esm\index.d.ts.map133493471227802872 0
 90D:\work-portfolio\bocman-shop\node_modules\caniuse-lite\data\features\input-placeholder.js133493471233171817 0
 75D:\work-portfolio\bocman-shop\node_modules\@nodelib\fs.scandir\out\index.js133493478836174962 0
@@ -6427,8 +6427,8 @@
 70D:\work-portfolio\bocman-shop\node_modules\.bin\update-browserslist-db133493471235785977 0
 74D:\work-portfolio\bocman-shop\node_modules\.bin\update-browserslist-db.cmd133493471235785977 0
 52D:\work-portfolio\bocman-shop\dist\index.975ef6c8.js133494565185397547 0
-53D:\work-portfolio\bocman-shop\dist\index.b07a87f3.css133494565185116371 0
-57D:\work-portfolio\bocman-shop\dist\index.b07a87f3.css.map133494565185261803 0
+53D:\work-portfolio\bocman-shop\dist\index.b07a87f3.css133494734686615216 0
+57D:\work-portfolio\bocman-shop\dist\index.b07a87f3.css.map133494734686635209 0
 58D:\work-portfolio\bocman-shop\dist\logoBocman.75d3e772.svg133494565185507549 0
 74D:\work-portfolio\bocman-shop\dist\montserrat-v26-latin-300.ce33b1f9.woff2133494565185176909 0
 77D:\work-portfolio\bocman-shop\dist\montserrat-v26-latin-regular.4c9bcaa1.woff133494565185261803 0

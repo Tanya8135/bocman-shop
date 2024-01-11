@@ -81,8 +81,52 @@ address {
 
 .header-mob {
   justify-content: space-between;
+  align-items: center;
   padding: 0 15px;
   display: flex;
+}
+
+.logo-s {
+  cursor: none;
+  border: none;
+  outline: none;
+}
+
+.header-nav-mob {
+  align-items: center;
+  display: flex;
+}
+
+.icon-phone-box {
+  padding: 5px;
+}
+
+.icon-phone {
+  fill: #403730;
+  cursor: none;
+  border: none;
+  outline: none;
+  margin-right: 28px;
+}
+
+.icon-phone:hover {
+  fill: #f6973f;
+}
+
+.burger-menu {
+  fill: #403730;
+}
+
+.burger-menu:hover {
+  fill: #f6973f;
+}
+
+.burger-menu {
+  cursor: none;
+  background-color: #0000;
+  border: none;
+  outline: none;
+  padding: 10px 2px;
 }
 
 /*# sourceMappingURL=index.b07a87f3.css.map */
