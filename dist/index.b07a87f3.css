@@ -79,4 +79,10 @@ address {
   font-style: normal;
 }
 
+.header-mob {
+  justify-content: space-between;
+  padding: 0 15px;
+  display: flex;
+}
+
 /*# sourceMappingURL=index.b07a87f3.css.map */
