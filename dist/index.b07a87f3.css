@@ -4,8 +4,11 @@ html {
 
 body {
   color: #2c2b29;
-  background: #fafafa;
+  background-color: #fafafa;
+  margin: 0 auto;
+  padding: 0;
   font-family: Montserrat, sans-serif;
+  overflow: hidden;
 }
 
 img {
@@ -127,6 +130,55 @@ address {
   border: none;
   outline: none;
   padding: 10px 2px;
+}
+
+.hero {
+  background-color: #899678;
+}
+
+.hero-title {
+  color: #f9f9f9;
+  text-transform: uppercase;
+  padding: 32px 52px 32px 18px;
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 1.1;
+}
+
+.hero-title__letter {
+  color: #f6973f;
+}
+
+.test-img {
+  background-color: #aba6ce;
+  width: 375px;
+  height: 303px;
+  margin: 0 auto;
+}
+
+.btn-box {
+  justify-content: center;
+  padding: 32px 0 87px;
+  display: flex;
+}
+
+.btn {
+  color: #f9f9f9;
+  text-transform: uppercase;
+  cursor: none;
+  background-color: #f6973f;
+  border: none;
+  border-radius: 4px;
+  outline: none;
+  margin: 0 auto;
+  padding: 11px 23px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+.btn:active {
+  box-shadow: inset 0 0 3px 3px #0000001a, inset 0 10px 15px -3px #0000001a;
 }
 
 /*# sourceMappingURL=index.b07a87f3.css.map */

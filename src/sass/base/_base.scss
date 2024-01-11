@@ -3,9 +3,12 @@ html {
 }
 
 body {
-  background: $bg-body;
+  background-color: $bg-body;
   color: $primary-text;
   font-family: 'Montserrat', sans-serif;
+  margin: 0 auto;
+  padding: 0;
+  overflow: hidden;
 }
 
 img {
