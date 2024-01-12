@@ -1,11 +1,13 @@
 .custom-furnitere {
-  position: relative;
-  background-color: $bg-dark-gray;
+  // background-color: $bg-dark-gray;
+  margin-bottom: 296px;
 }
 
-// .custom-furnitere-container {
-//   position: relative;
-// }
+.custom-furnitere-container {
+  position: relative;
+  background-color: $bg-dark-gray;
+  max-height: 453px;
+}
 
 .custom-furnitere-box {
   position: relative;
@@ -41,6 +43,23 @@
   @include fontMini(22px, 1, 700);
   color: $tertiary-text;
   padding: 78px 0 20px 0;
+
+  &__dark {
+    @include fontMini(22px, 1, 700);
+    color: $primary-text;
+    padding: 78px 0 20px 0;
+  }
+
+  &__ourHistory {
+    position: absolute;
+    top: -52;
+    left: 18px;
+    padding: 0;
+  }
+
+  &__last-public {
+    padding: 0 0 32px 0;
+  }
 }
 
 .section-subtitle {
@@ -48,6 +67,10 @@
 
   color: $tertiary-text;
   padding-bottom: 12px;
+
+  &__ourHistory {
+    padding-top: 48px;
+  }
 }
 
 .section-text {
@@ -55,15 +78,24 @@
 
   color: $tertiary-text;
   padding-bottom: 68px;
+
+  &__48 {
+    padding-bottom: 48px;
+  }
 }
 
 .test-img-section {
   position: relative;
+  top: 0px;
   width: 340px;
   height: 239px;
   background-color: rgb(171, 166, 206);
   margin: 0 auto;
   margin-bottom: 92px;
+
+  &__0 {
+    margin-bottom: 15px;
+  }
 }
 
 .rectangleCF2 {

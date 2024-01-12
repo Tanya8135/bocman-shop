@@ -231,7 +231,12 @@ address {
 }
 
 .custom-furnitere {
+  margin-bottom: 296px;
+}
+
+.custom-furnitere-container {
   background-color: #5b5b5b;
+  max-height: 453px;
   position: relative;
 }
 
@@ -275,6 +280,25 @@ address {
   line-height: 1;
 }
 
+.section-title__dark {
+  color: #2c2b29;
+  padding: 78px 0 20px;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.section-title__ourHistory {
+  padding: 0;
+  position: absolute;
+  top: -52px;
+  left: 18px;
+}
+
+.section-title__last-public {
+  padding: 0 0 32px;
+}
+
 .section-subtitle {
   letter-spacing: .08em;
   color: #f9f9f9;
@@ -282,6 +306,10 @@ address {
   font-size: 18px;
   font-weight: 500;
   line-height: 1.3;
+}
+
+.section-subtitle__ourHistory {
+  padding-top: 48px;
 }
 
 .section-text {
@@ -293,12 +321,21 @@ address {
   line-height: 1.4;
 }
 
+.section-text__48 {
+  padding-bottom: 48px;
+}
+
 .test-img-section {
   background-color: #aba6ce;
   width: 340px;
   height: 239px;
   margin: 0 auto 92px;
   position: relative;
+  top: 0;
+}
+
+.test-img-section__0 {
+  margin-bottom: 15px;
 }
 
 .rectangleCF2 {
@@ -326,6 +363,60 @@ address {
   position: absolute;
   bottom: -16px;
   left: 55px;
+}
+
+.our-histury {
+  min-height: 464px;
+  margin-bottom: 90px;
+  position: relative;
+}
+
+.our-histury-container {
+  background-color: #5b5b5b;
+  max-height: 250px;
+}
+
+.our-histury-box {
+  max-width: 356px;
+  margin: 0 auto;
+  display: block;
+  position: relative;
+}
+
+.our-histury-img {
+  background-color: #aba6ce;
+  width: 339px;
+  height: 233px;
+  margin: 0 auto;
+  display: block;
+  position: relative;
+}
+
+.rectangleCF4 {
+  background-color: #f6973f;
+  min-width: 52px;
+  min-height: 46px;
+  position: absolute;
+  top: -15px;
+  right: -9.2px;
+}
+
+.last-public {
+  margin-bottom: 60px;
+  padding: 0 18px;
+}
+
+.card-prod-text {
+  justify-content: center;
+  padding-bottom: 40px;
+  display: flex;
+}
+
+.card-prod-name {
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.2;
 }
 
 /*# sourceMappingURL=index.b07a87f3.css.map */
