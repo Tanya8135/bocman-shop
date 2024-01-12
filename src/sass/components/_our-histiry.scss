@@ -1,0 +1,37 @@
+.our-histury {
+  position: relative;
+  //   background-color: $bg-dark-gray;
+  min-height: 464px;
+    margin-bottom: 90px;
+}
+
+.our-histury-container {
+  background-color: $bg-dark-gray;
+  max-height: 250px;
+}
+
+.our-histury-box {
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  max-width: 356px;
+}
+
+.our-histury-img {
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  background-color: rgb(171, 166, 206);
+  width: 339px;
+  height: 233px;
+}
+
+.rectangleCF4 {
+  position: absolute;
+  top: -15px;
+  right: -9.2px;
+
+  background-color: $bg-element;
+  min-width: 52px;
+  min-height: 46px;
+}

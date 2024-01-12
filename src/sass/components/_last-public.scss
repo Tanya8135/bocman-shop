@@ -1,0 +1,16 @@
+.last-public {
+  padding: 0 18px;
+  margin-bottom: 60px;
+}
+
+.card-prod-text {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 40px;
+}
+
+.card-prod-name {
+  @include fontMini(18px, 1.2, 500);
+
+  text-transform: uppercase;
+}
