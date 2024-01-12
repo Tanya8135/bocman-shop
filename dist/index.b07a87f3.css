@@ -4,7 +4,7 @@ html {
 
 body {
   color: #2c2b29;
-  background-color: #fafafa;
+  background-color: #ebebeb;
   margin: 0 auto;
   padding: 0;
   font-family: Montserrat, sans-serif;
@@ -418,6 +418,119 @@ address {
   font-size: 18px;
   font-weight: 500;
   line-height: 1.2;
+}
+
+.form-section {
+  background-color: #899678;
+}
+
+.form-container {
+  padding: 56px 18px;
+}
+
+.form-box {
+  background-color: #ebebeb;
+  width: 340px;
+  height: 320px;
+}
+
+.action-text-box {
+  padding: 20px 0 0 36px;
+}
+
+.action-text {
+  color: #f6973f;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.form-subtitle-box {
+  justify-content: center;
+  padding: 12px 0;
+  display: flex;
+}
+
+.form-subtitle {
+  color: #2c2b29;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.test {
+  width: 268px;
+  margin: 0 auto;
+  display: block;
+}
+
+.data-field {
+  margin: 0 auto 20px;
+  display: block;
+  position: relative;
+}
+
+.data-field__input {
+  letter-spacing: .07em;
+  color: #5b5b5b;
+  background-color: #0000;
+  border: none;
+  border-bottom: 1px solid #aeaeae;
+  border-radius: 0;
+  min-width: 268px;
+  min-height: 28px;
+  padding-left: 4px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.9;
+}
+
+.data-field__input:focus, .data-field__input:hover {
+  background-color: #ebebeb;
+  border-bottom: 1px solid #f6973f;
+  outline: none;
+}
+
+.data-field-text {
+  color: #aeaeae;
+  padding: 5px 0 1px 3px;
+  font-size: 14px;
+  font-weight: 500;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.data-field-text__name {
+  transition: transform .25s cubic-bezier(.4, 0, .2, 1);
+  transform: translateY(0%);
+}
+
+.data-field:focus-within > .data-field-text__name {
+  left: 0;
+  transform: translateY(-18px);
+}
+
+.data-field__input:not(:placeholder-shown) + .data-field-text__name {
+  color: #0000;
+  left: 0;
+  overflow: hidden;
+  transform: translateY(-22px);
+}
+
+.data-field-text__comment {
+  transition: color .25s cubic-bezier(.4, 0, .2, 1);
+  transform: translate(0);
+}
+
+.data-field-text:focus-within > .data-field-text__comment {
+  color: #0000;
+  left: 0;
+  transform: translate(0);
+}
+
+.data-field__input:not(:placeholder-shown) + .data-field-text__comment {
+  color: #0000;
+  overflow: hidden;
 }
 
 /*# sourceMappingURL=index.b07a87f3.css.map */
