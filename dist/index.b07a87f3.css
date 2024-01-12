@@ -414,6 +414,7 @@ address {
 
 .card-prod-name {
   text-transform: uppercase;
+  color: #403730;
   font-size: 18px;
   font-weight: 500;
   line-height: 1.2;
