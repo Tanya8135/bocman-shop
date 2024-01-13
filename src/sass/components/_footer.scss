@@ -1,0 +1,49 @@
+.footer {
+  background-color: $bg-primary;
+}
+
+.footer-container {
+  padding: 48px 18px 28px 18px;
+}
+
+.footer-grid {
+  margin: 0 auto;
+  max-width: 304px;
+}
+
+.footer-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 42px;
+  grid-row-gap: 20px;
+  margin-bottom: 28px;
+}
+
+.footer-item {
+  max-width: 90px;
+}
+
+.footer-link {
+  @include font(14px, 1.5, 0.04, 500);
+}
+
+.footer-social-container {
+  padding-top: 60px;
+}
+
+.fs-list {
+  display: flex;
+  margin-left: 10px;
+}
+
+.fs-item {
+  margin-right: 22px;
+
+  &:last-child {
+    margin-right: 0;
+  }
+
+  &__tel {
+    margin-left: 48px;
+  }
+}

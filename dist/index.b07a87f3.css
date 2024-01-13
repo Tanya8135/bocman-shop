@@ -219,6 +219,7 @@ address {
 }
 
 .btn {
+  letter-spacing: .8px;
   color: #f9f9f9;
   text-transform: uppercase;
   cursor: none;
@@ -229,7 +230,7 @@ address {
   margin: 0 auto;
   padding: 11px 23px;
   font-size: 14px;
-  font-weight: 700;
+  font-weight: 500;
   line-height: 1.5;
   display: block;
 }
@@ -470,7 +471,7 @@ address {
   font-weight: 700;
 }
 
-.test {
+.form-block {
   width: 268px;
   margin: 0 auto;
   display: block;
@@ -635,6 +636,59 @@ address {
   line-height: .7;
   position: absolute;
   left: -40px;
+}
+
+.footer {
+  background-color: #899678;
+}
+
+.footer-container {
+  padding: 48px 18px 28px;
+}
+
+.footer-grid {
+  max-width: 304px;
+  margin: 0 auto;
+}
+
+.footer-list {
+  grid-column-gap: 42px;
+  grid-row-gap: 20px;
+  grid-template-columns: repeat(2, 1fr);
+  margin-bottom: 28px;
+  display: grid;
+}
+
+.footer-item {
+  max-width: 90px;
+}
+
+.footer-link {
+  letter-spacing: .04px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.footer-social-container {
+  padding-top: 60px;
+}
+
+.fs-list {
+  margin-left: 10px;
+  display: flex;
+}
+
+.fs-item {
+  margin-right: 22px;
+}
+
+.fs-item:last-child {
+  margin-right: 0;
+}
+
+.fs-item__tel {
+  margin-left: 48px;
 }
 
 /*# sourceMappingURL=index.b07a87f3.css.map */
