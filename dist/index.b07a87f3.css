@@ -428,10 +428,15 @@ address {
   padding: 56px 18px;
 }
 
+.form {
+  min-height: 336px;
+}
+
 .form-box {
   background-color: #ebebeb;
-  width: 340px;
-  height: 320px;
+  min-width: 340px;
+  margin: 0 auto;
+  display: block;
 }
 
 .action-text-box {
@@ -531,6 +536,60 @@ address {
 .data-field__input:not(:placeholder-shown) + .data-field-text__comment {
   color: #0000;
   overflow: hidden;
+}
+
+.policy-box {
+  width: 269px;
+}
+
+.policy {
+  cursor: none;
+  align-items: baseline;
+  margin: -1px;
+  display: flex;
+  position: relative;
+}
+
+.policy__checkbox {
+  clip: rect(0 0 0 0);
+  margin: -1px;
+  padding: 0;
+  position: absolute;
+  bottom: 0;
+  overflow: hidden;
+}
+
+.policy__checkbox:checked + .policy__icon {
+  background-color: #f6973f;
+  background-image: url("checkmark.cddf7394.svg");
+  background-size: contain;
+  background-origin: border-box;
+  border: .7px solid #aeaeae;
+}
+
+.policy__icon {
+  border: 1px solid #aeaeae;
+  min-width: 18px;
+  min-height: 18px;
+  display: inline-block;
+  position: relative;
+  top: -7px;
+  left: -6px;
+  transform: translate(50%, 50%);
+}
+
+.policy__text {
+  color: #aeaeae;
+  margin-left: 16px;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.4;
+}
+
+.checkbox-box {
+  align-items: center;
+  margin-bottom: 24px;
+  display: flex;
 }
 
 /*# sourceMappingURL=index.b07a87f3.css.map */

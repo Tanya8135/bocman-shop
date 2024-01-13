@@ -6,10 +6,15 @@
   padding: 56px 18px;
 }
 
+.form {
+  min-height: 336px;
+}
+
 .form-box {
+  display: block;
+  margin: 0 auto;
   background-color: $bg-body;
-  width: 340px;
-  height: 320px;
+  min-width: 340px;
 }
 
 .action-text-box {
@@ -115,4 +120,60 @@
       overflow: hidden;
     }
   }
+}
+
+// POLICY
+.policy-box {
+  width: 269px;
+}
+
+.policy {
+  display: flex;
+  align-items: baseline;
+  margin: -1px;
+  position: relative;
+  cursor: none;
+
+  &__checkbox {
+    position: absolute;
+    margin: -1px;
+    bottom: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+
+    &:checked + .policy__icon {
+      border: 0.7px solid $form-line;
+      background-color: $accent;
+      background-image: url('../images/checkmark.svg');
+      background-size: contain;
+      background-origin: border-box;
+    }
+  }
+
+  &__icon {
+    display: inline-block;
+    min-width: 18px;
+    min-height: 18px;
+    position: relative;
+    top: -7px;
+    left: -6px;
+    transform: translate(50%, 50%);
+    border: 1px solid $form-line;
+    // margin-right: 20px;
+  }
+
+  &__text {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.4;
+    color: $form-text;
+    margin-left: 16px;
+  }
+}
+
+.checkbox-box {
+  display: flex;
+  align-items: center;
+  margin-bottom: 24px;
 }
