@@ -164,9 +164,7 @@
   }
 
   &__text {
-    font-size: 12px;
-    font-weight: 400;
-    line-height: 1.4;
+    @include fontMini(12px, 1.4, 400);
     color: $form-text;
     margin-left: 16px;
   }

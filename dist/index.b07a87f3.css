@@ -75,6 +75,14 @@ img {
 
 @font-face {
   display: swap;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 900;
+  src: url("montserrat-v26-latin-900.7acce3d5.woff2") format("woff2"), url("montserrat-v26-latin-900.87d67488.woff") format("woff");
+}
+
+@font-face {
+  display: swap;
   font-family: Raleway;
   font-style: normal;
   font-weight: 500;
@@ -590,6 +598,43 @@ address {
   align-items: center;
   margin-bottom: 24px;
   display: flex;
+}
+
+.company-info {
+  max-width: 330px;
+  margin: 0 auto;
+  padding: 60px 20px;
+}
+
+.ci-list {
+  position: relative;
+}
+
+.ci-item {
+  max-width: 278px;
+  margin-bottom: 132px;
+}
+
+.ci-item:last-child {
+  margin-bottom: 0;
+}
+
+.ci-text {
+  letter-spacing: .13em;
+  padding-top: 12px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+.ci-number {
+  color: #c9c1ad66;
+  z-index: -1;
+  font-size: 176px;
+  font-weight: 900;
+  line-height: .7;
+  position: absolute;
+  left: -40px;
 }
 
 /*# sourceMappingURL=index.b07a87f3.css.map */
