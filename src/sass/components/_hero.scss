@@ -29,7 +29,7 @@
 }
 
 .btn {
-  @include fontMini(14px, 1.5, 700);
+  @include font(14px, 1.5, 0.8, 500);
   color: $btn-text;
   text-transform: uppercase;
   padding: 11px 23px;

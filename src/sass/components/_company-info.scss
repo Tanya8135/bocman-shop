@@ -1,0 +1,33 @@
+.company-info {
+  margin: 0 auto;
+  max-width: 330px;
+  padding: 60px 20px;
+}
+
+.ci-list {
+  position: relative;
+}
+
+.ci-item {
+  margin-bottom: 132px;
+  max-width: 278px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.ci-text {
+  @include font(16px, 1.2, 0.13em, 400);
+
+  padding-top: 12px;
+}
+
+.ci-number {
+  @include fontMini(176px, 0.7, 900);
+  position: absolute;
+  left: -40px;
+
+  color: $number;
+  z-index: -1;
+}

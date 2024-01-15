@@ -69,6 +69,16 @@
     url('../fonts/montserrat-v26-latin-700.woff') format('woff');
 }
 
+// 900
+@font-face {
+  display: swap;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 900;
+  src: url('../fonts/montserrat-v26-latin-900.woff2') format('woff2'),
+    url('../fonts/montserrat-v26-latin-900.woff') format('woff');
+}
+
 /* Raleway */
 // 500
 @font-face {
