@@ -3,7 +3,9 @@
 }
 
 .footer-container {
+  margin: 0 auto;
   padding: 48px 18px 28px 18px;
+  min-width: 339px;
 }
 
 .footer-grid {
@@ -28,12 +30,15 @@
 }
 
 .footer-social-container {
+  display: flex;
+  justify-content: center;
   padding-top: 60px;
 }
 
 .fs-list {
   display: flex;
-  margin-left: 10px;
+  align-items: center;
+  margin-left: 5px;
 }
 
 .fs-item {
@@ -44,6 +49,33 @@
   }
 
   &__tel {
-    margin-left: 48px;
+    margin-left: 40px;
+  }
+}
+
+.logo-footer {
+  display: flex;
+  justify-content: center;
+  padding-top: 32px;
+}
+
+.logo-s-footer {
+  min-width: 90px;
+  min-height: 80px;
+}
+
+.policy-info-box {
+  display: flex;
+  justify-content: center;
+  padding-top: 52px;
+}
+
+.policy-info {
+  @include font(11px, 1.5, 0.08em, 500);
+
+  font-family: 'Raleway', sans-serif;
+
+  &__transform {
+    text-transform: uppercase;
   }
 }

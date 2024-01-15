@@ -643,6 +643,8 @@ address {
 }
 
 .footer-container {
+  min-width: 339px;
+  margin: 0 auto;
   padding: 48px 18px 28px;
 }
 
@@ -671,11 +673,14 @@ address {
 }
 
 .footer-social-container {
+  justify-content: center;
   padding-top: 60px;
+  display: flex;
 }
 
 .fs-list {
-  margin-left: 10px;
+  align-items: center;
+  margin-left: 5px;
   display: flex;
 }
 
@@ -688,7 +693,36 @@ address {
 }
 
 .fs-item__tel {
-  margin-left: 48px;
+  margin-left: 40px;
+}
+
+.logo-footer {
+  justify-content: center;
+  padding-top: 32px;
+  display: flex;
+}
+
+.logo-s-footer {
+  min-width: 90px;
+  min-height: 80px;
+}
+
+.policy-info-box {
+  justify-content: center;
+  padding-top: 52px;
+  display: flex;
+}
+
+.policy-info {
+  letter-spacing: .08em;
+  font-family: Raleway, sans-serif;
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.policy-info__transform {
+  text-transform: uppercase;
 }
 
 /*# sourceMappingURL=index.b07a87f3.css.map */
