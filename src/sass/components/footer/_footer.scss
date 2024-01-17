@@ -27,6 +27,13 @@
 
 .footer-link {
   @include font(14px, 1.5, 0.04, 500);
+
+  transition: color 600ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:active {
+    color: $accent;
+  }
 }
 
 .footer-social-container {

@@ -670,6 +670,11 @@ address {
   font-size: 14px;
   font-weight: 500;
   line-height: 1.5;
+  transition: color .6s cubic-bezier(.4, 0, .2, 1);
+}
+
+.footer-link:hover, .footer-link:active {
+  color: #f6973f;
 }
 
 .footer-social-container {
