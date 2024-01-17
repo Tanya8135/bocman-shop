@@ -148,6 +148,7 @@ address {
   cursor: none;
   border: none;
   outline: none;
+  padding: 12px 0;
 }
 
 .header-nav-mob {
@@ -156,6 +157,7 @@ address {
 }
 
 .icon-phone-box {
+  margin-right: 22px;
   padding: 5px;
 }
 
@@ -164,7 +166,6 @@ address {
   cursor: none;
   border: none;
   outline: none;
-  margin-right: 28px;
 }
 
 .icon-phone:hover {
@@ -184,7 +185,6 @@ address {
   background-color: #0000;
   border: none;
   outline: none;
-  padding: 10px 2px;
 }
 
 .hero {
@@ -705,18 +705,7 @@ address {
   fill: #f6973f;
 }
 
-.logo-footer {
-  justify-content: center;
-  padding-top: 32px;
-  display: flex;
-}
-
-.logo-s-footer {
-  min-width: 90px;
-  min-height: 80px;
-}
-
-.policy-info-box {
+.logo-footer, .policy-info-box {
   justify-content: center;
   padding-top: 52px;
   display: flex;
@@ -742,7 +731,6 @@ address {
 .burger-menu {
   flex-flow: column;
   min-height: 100%;
-  padding-top: 30px;
   display: flex;
 }
 
@@ -756,7 +744,6 @@ address {
   min-width: 38px;
   min-height: 38px;
   margin: 0;
-  padding: 10px 10px 0 0;
 }
 
 @media screen and (width >= 768px) and (width <= 1920px) {

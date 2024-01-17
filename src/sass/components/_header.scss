@@ -6,6 +6,7 @@
 }
 
 .logo-s {
+  padding: 12px 0;
   outline: none;
   border: none;
   cursor: none;
@@ -17,11 +18,12 @@
 }
 
 .icon-phone-box {
+ 
+  margin-right: 22px;
   padding: 5px;
 }
 
 .icon-phone {
-  margin-right: 28px;
   //   padding: 20px 5px 5px 5px;
   fill: $phone;
   outline: none;
@@ -46,5 +48,5 @@
   border: none;
   outline: none;
   background-color: transparent;
-  padding: 10px 2px;
+  // padding: 10px 2px;
 }
