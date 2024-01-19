@@ -47,13 +47,11 @@
 }
 
 .data-field {
-  @include font(14px, 1.9, 0.07em, 500);
-
   display: block;
   position: relative;
   margin: 0 auto;
   margin-bottom: 20px;
-  // color: $bg-dark-gray;
+  color: $form-text;
 }
 
 .data-field__input {
@@ -64,7 +62,7 @@
   background-color: transparent;
   min-width: 268px;
   min-height: 28px;
-  // color: $bg-dark-gray;
+  color: $bg-dark-gray;
   padding-left: 4px;
 
   &:focus,
@@ -83,26 +81,29 @@
 
   font-size: 14px;
   font-weight: 500;
-  color: $form-text;
-  transform: translateY(0%);
+  // color: $form-text;
 
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &__name {
+    transform: translateY(0%);
 
-  .data-field:focus-within > & {
-    transition: transform 300ms cubic-bezier(0.4, 0, 0.2, 1);
-    transform: translateY(-18px);
-    left: 0;
-  }
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-  .data-field__input:not(:placeholder-shown) + & {
-    transform: translateY(-18px);
-    left: 0;
-  }
+    .data-field:focus-within > & {
+      transition: transform 300ms cubic-bezier(0.4, 0, 0.2, 1);
+      transform: translateY(-18px);
+      left: 0;
+    }
 
-  .data-field__input:not(:placeholder-shown) + & {
-    transition: color 300ms cubic-bezier(0.4, 0, 0.2, 1);
-    color: #00000000;
-    overflow: hidden;
+    .data-field__input:not(:placeholder-shown) + & {
+      transform: translateY(-18px);
+      left: 0;
+    }
+
+    .data-field__input:not(:placeholder-shown) + & {
+      transition: color 300ms cubic-bezier(0.4, 0, 0.2, 1);
+      color: #00000000;
+      overflow: hidden;
+    }
   }
 
   &__comment {
