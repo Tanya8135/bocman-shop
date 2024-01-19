@@ -54,14 +54,13 @@
 }
 
 .data-field__input {
-  @include fontMini(16px, 1.9, 500);
+  @include font(14px, 1.9, 0.07em, 500);
   border: none;
   border-radius: 0;
   border-bottom: 1px solid $form-line;
   background-color: transparent;
   min-width: 268px;
   min-height: 28px;
-  letter-spacing: 0.07em;
   color: $bg-dark-gray;
   padding-left: 4px;
 
@@ -81,7 +80,7 @@
 
   font-size: 14px;
   font-weight: 500;
-  // color: $form-text;
+  color: $form-text;
 
   &__name {
     transform: translateY(0%);
@@ -94,16 +93,14 @@
     }
 
     .data-field__input:not(:placeholder-shown) + & {
-      transform: translateY(-22px);
+      transform: translateY(-18px);
       left: 0;
     }
 
     .data-field__input:not(:placeholder-shown) + & {
-      color: #00000000;
+      // color: #00000000;
       overflow: hidden;
     }
-
-    color: $form-text;
   }
 
   &__comment {
