@@ -33,18 +33,3 @@
     fill: $accent;
   }
 }
-
-.burger-menu {
-  fill: $burger-menu;
-
-  &:hover {
-    fill: $accent;
-  }
-}
-
-.burger-menu {
-  cursor: none;
-  border: none;
-  outline: none;
-  background-color: transparent;
-}

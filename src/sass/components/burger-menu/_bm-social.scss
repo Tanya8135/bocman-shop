@@ -2,10 +2,11 @@
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  padding-top: 12px;
+  padding-top: 16px;
+  height: 100vh;
 
   &__item {
-    transform: translateY(-106px);
+    transform: translateY(-90px);
     margin-bottom: 16px;
 
     &:last-child {
@@ -41,7 +42,7 @@
   }
 
   &__tel {
-    @include font(22px, 1.1, 0.05em, 400);
+    @include font(20px, 1.1, 0.03em, 300);
 
     display: flex;
     justify-content: center;

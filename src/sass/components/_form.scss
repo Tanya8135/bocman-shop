@@ -87,7 +87,7 @@
   opacity: 1;
 
   &__name {
-    transform: translateY(-18px);
+    transform: translateY(0px);
 
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
@@ -100,19 +100,10 @@
       left: 0px;
     }
 
-    // .data-field__input:not(:placeholder-shown) + & {
-    //   // opacity: 0;
-    //   transition: transform 300ms cubic-bezier(0.4, 0, 0.2, 1);
-    //   color: $form-text;
-    //   left: 0;
-    //   transform: translateY(-18px);
-
-    //   // overflow: hidden;
-    // }
-
     .data-field__input:not(:placeholder-shown) + & {
       opacity: 0;
-      transition: transform 300ms cubic-bezier(0.4, 0, 0.2, 1);
+      transition: transform 300ms cubic-bezier(0.4, 0, 0.2, 1),
+        opacity 300ms cubic-bezier(0.4, 0, 0.2, 1);
       // color: $form-text;
       left: 0;
       transform: translateY(-18px);

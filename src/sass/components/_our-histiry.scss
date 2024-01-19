@@ -2,12 +2,16 @@
   position: relative;
   //   background-color: $bg-dark-gray;
   min-height: 464px;
-    margin-bottom: 90px;
+  margin-bottom: 90px;
 }
 
 .our-histury-container {
   background-color: $bg-dark-gray;
   max-height: 250px;
+}
+
+.our-history-text-box {
+  padding: 0 18px;
 }
 
 .our-histury-box {
