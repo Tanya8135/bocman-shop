@@ -1,0 +1,50 @@
+.burger-menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-top: 12px;
+
+  &__item {
+    transform: translateY(-106px);
+    margin-bottom: 16px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  &__link {
+    @include font(22px, 1.1, 0.03em, 300);
+
+    color: $primary-text;
+    padding: 5px 0;
+  }
+}
+
+.bm-s {
+  &__list {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  &__link {
+    fill: $icons-social-bm;
+    color: $icons-social-bm;
+    transition: fill 300ms cubic-bezier(0.4, 0, 0.2, 1),
+      color 300ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:active,
+    &:hover {
+      fill: $accent;
+      color: $accent;
+    }
+  }
+
+  &__tel {
+    @include font(22px, 1.1, 0.05em, 400);
+
+    display: flex;
+    justify-content: center;
+    padding-top: 32px;
+  }
+}

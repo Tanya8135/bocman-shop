@@ -10,9 +10,11 @@
 // COMPONENTS
 @import './components/header';
 @import './components/hero';
-@import './components/custom-furniture';
+@import './components/individ-furniture.scss';
 @import './components/our-histiry';
 @import './components/last-public';
 @import './components/form';
 @import './components/company-info';
-@import './components/footer';
+@import './components/footer/footer';
+@import './components/burger-menu/burger-menu';
+@import './components/burger-menu/bm-social';

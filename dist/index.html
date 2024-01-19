@@ -4,17 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Page title</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
+    <!-- <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    /> -->
     <link rel="stylesheet" href="/index.b07a87f3.css">
   </head>
   <body>
     <!-- ❗️❗️❗️ Add partials like so for every page -->
-    <header class="header">
+    <header class="header page-header">
   <div class="header-container">
     <div class="header-mob">
       <div class="logo">
         <a href="/index.html" class="logo-s">
-          <img src="/logoBocman.75d3e772.svg" alt="logo" class="logo-s">
+          <img src="/logoBotsmanMin.6e1ff9de.svg" alt="logo" class="logo-s">
         </a>
       </div>
 
@@ -28,7 +31,7 @@
         </div>
 
         <div class="burger-menu-box">
-          <button type="button" class="burger-menu">
+          <button type="button" class="burger-menu menu-toggle js-open-menu" aria-expanded="false" aria-controls="mobile-menu">
             <svg width="40" height="40">
               <use href="/icons.adfc4680.svg#icon-burger-menu"></use>
             </svg>
@@ -56,13 +59,13 @@
   </div>
 </section>
 
-      <section class="custom-furnitere">
-  <div class="custom-furnitere-container">
+      <section class="individ-furnitere">
+  <div class="individ-furnitere-container">
     <div class="rectangleCF1">
       <div class="rectangleCF1__text">furniture</div>
     </div>
 
-    <div class="custom-furnitere-text-box">
+    <div class="individ-furnitere-text-box">
       <h2 class="section-title">
         <span class="letter">И</span>ндивидуальная мебель
       </h2>
@@ -73,7 +76,7 @@
       </p>
     </div>
 
-    <div class="custom-furnitere-box">
+    <div class="individ-furnitere-box">
       <div class="rectangleCF2">
         <img src="/grid.d598f096.svg" alt="grid" class="gridCF">
       </div>
@@ -221,8 +224,7 @@
       </ul>
     </div>
 
-    <button class="btn">Персональная консультация</button>
-
+    <!-- добавить hover, acrive на иконски соцсетей -->
     <div class="footer-social-container">
       <ul class="fs-list">
         <li class="fs-item">
@@ -254,7 +256,7 @@
 
     <div class="logo-footer">
       <a href="/index.html">
-        <img src="/logoBocman.75d3e772.svg" alt="logo" class="logo-s-footer">
+        <img src="/logoBotsmanMax.8726d69e.svg" alt="logo">
       </a>
     </div>
 
@@ -265,6 +267,76 @@
     </div>
   </div>
 </footer>
+
+      <div class="menu-container js-menu-container" id="mobile-menu">
+  <!-- btn-close -->
+  <button class="menu-toggle js-close-menu">
+    <svg width="24" height="24">
+      <use href="/icons.adfc4680.svg#icon-close"></use>
+    </svg>
+  </button>
+
+  <div class="burger-menu">
+    <div class="burger-menu__box">
+      <ul class="burger-menu__list">
+        <li class="burger-menu__item">
+          <a href="" class="burger-menu__link">Каталог</a>
+        </li>
+        <li class="burger-menu__item">
+          <a href="" class="burger-menu__link">Диваны</a>
+        </li>
+        <li class="burger-menu__item">
+          <a href="" class="burger-menu__link">Пуфы</a>
+        </li>
+        <li class="burger-menu__item">
+          <a href="" class="burger-menu__link">Столы</a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="bm-s">
+      <ul class="bm-s__list">
+        <li class="bm-s__item">
+          <a href="" class="bm-s__link">
+            <svg width="42" height="42">
+              <use href="/icons.adfc4680.svg#icon-instagram"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="bm-s__item">
+          <a href="" class="bm-s__link">
+            <svg width="42" height="42">
+              <use href="/icons.adfc4680.svg#icon-facebook"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="bm-s__item">
+          <a href="" class="bm-s__link">
+            <svg width="42" height="42">
+              <use href="/icons.adfc4680.svg#icon-telegram"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+      <div class="bm-s__tel">
+        <a href="tel:+380996384537" class="bm-s__link">+38 (099)-638-45-37</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- <li class="bm-s__item">
+  <a
+    href=""
+    target="_blank"
+    rel="noopener nofollow noreferrer"
+    class="bm-s__link"
+  >
+    <svg width="42" height="42">
+      <use href="./images/icons.svg#icon-facebook"></use>
+    </svg>
+  </a>
+</li> -->
 
     </main>
     <script src="/index.975ef6c8.js" defer=""></script>

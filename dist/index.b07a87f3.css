@@ -148,6 +148,7 @@ address {
   cursor: none;
   border: none;
   outline: none;
+  padding: 12px 0;
 }
 
 .header-nav-mob {
@@ -156,6 +157,7 @@ address {
 }
 
 .icon-phone-box {
+  margin-right: 22px;
   padding: 5px;
 }
 
@@ -164,7 +166,6 @@ address {
   cursor: none;
   border: none;
   outline: none;
-  margin-right: 28px;
 }
 
 .icon-phone:hover {
@@ -184,7 +185,6 @@ address {
   background-color: #0000;
   border: none;
   outline: none;
-  padding: 10px 2px;
 }
 
 .hero {
@@ -239,17 +239,17 @@ address {
   box-shadow: inset 0 0 3px 3px #0000001a, inset 0 10px 15px -3px #0000001a;
 }
 
-.custom-furnitere {
+.individ-furnitere {
   margin-bottom: 296px;
 }
 
-.custom-furnitere-container {
+.individ-furnitere-container {
   background-color: #5b5b5b;
   max-height: 453px;
   position: relative;
 }
 
-.custom-furnitere-box {
+.individ-furnitere-box {
   max-width: 515px;
   margin: 0 auto;
   display: block;
@@ -277,7 +277,7 @@ address {
   left: 5px;
 }
 
-.custom-furnitere-text-box {
+.individ-furnitere-text-box {
   padding: 0 18px;
 }
 
@@ -670,11 +670,16 @@ address {
   font-size: 14px;
   font-weight: 500;
   line-height: 1.5;
+  transition: color .6s cubic-bezier(.4, 0, .2, 1);
+}
+
+.footer-link:hover, .footer-link:active {
+  color: #f6973f;
 }
 
 .footer-social-container {
   justify-content: center;
-  padding-top: 60px;
+  padding-top: 48px;
   display: flex;
 }
 
@@ -696,18 +701,16 @@ address {
   margin-left: 40px;
 }
 
-.logo-footer {
-  justify-content: center;
-  padding-top: 32px;
-  display: flex;
+.fs-link {
+  fill: #403730;
+  transition: fill .3s cubic-bezier(.4, 0, .2, 1);
 }
 
-.logo-s-footer {
-  min-width: 90px;
-  min-height: 80px;
+.fs-link:hover, .fs-link:active {
+  fill: #f6973f;
 }
 
-.policy-info-box {
+.logo-footer, .policy-info-box {
   justify-content: center;
   padding-top: 52px;
   display: flex;
@@ -723,6 +726,143 @@ address {
 
 .policy-info__transform {
   text-transform: uppercase;
+}
+
+.page-header .header-container {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.burger-menu {
+  flex-flow: column;
+  min-height: 100%;
+  display: flex;
+}
+
+.menu-toggle {
+  fill: #403730;
+  cursor: none;
+  background-color: #0000;
+  border: none;
+  border-radius: 50%;
+  outline: none;
+  min-width: 38px;
+  min-height: 38px;
+  margin: 0;
+}
+
+@media screen and (width >= 768px) and (width <= 1920px) {
+  .menu-toggle {
+    display: none;
+  }
+}
+
+@media screen and (width >= 1024px) and (width <= 1920px) {
+  .menu-toggle {
+    display: none;
+  }
+}
+
+.menu-toggle:hover, .menu-toggle:focus {
+  fill: #f6973f;
+  background-color: #0000;
+}
+
+.menu-container {
+  z-index: 999;
+  background-color: #ebebeb;
+  width: 240px;
+  height: 100vh;
+  padding: 32px;
+  transition: transform .25s cubic-bezier(.4, 0, .2, 1);
+  position: fixed;
+  top: 0;
+  right: 0;
+  transform: translateX(100%);
+}
+
+.menu-container.is-open {
+  transform: translateX(0);
+}
+
+.menu-container .menu-toggle {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+}
+
+.menu-container .menu-toggle:hover, .menu-container .menu-toggle:active {
+  color: #f6973f;
+}
+
+.mobile-menu {
+  display: flex;
+}
+
+.mobile-menu__list {
+  margin: 0 auto;
+  padding: 0;
+}
+
+.mobile-menu__item {
+  align-items: baseline;
+  margin-bottom: 16px;
+  display: flex;
+}
+
+.mobile-menu__item:last-of-type {
+  margin-bottom: 32px;
+}
+
+.burger-menu {
+  flex-direction: column;
+  justify-content: space-around;
+  padding-top: 12px;
+  display: flex;
+}
+
+.burger-menu__item {
+  margin-bottom: 16px;
+  transform: translateY(-106px);
+}
+
+.burger-menu__item:last-child {
+  margin-bottom: 0;
+}
+
+.burger-menu__link {
+  letter-spacing: .03em;
+  color: #2c2b29;
+  padding: 5px 0;
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 1.1;
+}
+
+.bm-s__list {
+  justify-content: space-around;
+  display: flex;
+}
+
+.bm-s__link {
+  fill: #5b5b5b;
+  color: #5b5b5b;
+  transition: fill .3s cubic-bezier(.4, 0, .2, 1), color .3s cubic-bezier(.4, 0, .2, 1);
+}
+
+.bm-s__link:active, .bm-s__link:hover {
+  fill: #f6973f;
+  color: #f6973f;
+}
+
+.bm-s__tel {
+  letter-spacing: .05em;
+  justify-content: center;
+  padding-top: 32px;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 1.1;
+  display: flex;
 }
 
 /*# sourceMappingURL=index.b07a87f3.css.map */
