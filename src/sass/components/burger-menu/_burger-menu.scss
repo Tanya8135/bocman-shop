@@ -40,9 +40,9 @@
 }
 
 .menu-container {
-  //   @include tabletMin {
-  //     display: none;
-  //   }
+  // @include tabletMin {
+  //   display: none;
+  // }
 
   //   @include min-mobile {
   //     padding: 15px;
@@ -69,12 +69,11 @@
   position: absolute;
   top: 16px;
   right: 16px;
-  color: #fff;
-}
 
-.price-bm-title {
-  //   @include short-font(30px, 0.05em);
-  padding-bottom: 12px;
+  &:hover,
+  &:active {
+    color: $accent;
+  }
 }
 
 .mobile-menu {
@@ -94,136 +93,4 @@
       margin-bottom: 32px;
     }
   }
-
-  &__text {
-    // @include min-mobile {
-    //   @include short-font(16px, 0.01em);
-    // }
-
-    // @include short-font(18px, 0.01em);
-    width: 203px;
-  }
-
-  &__prise {
-    // @include min-mobile {
-    //   @include short-font(16px, 0.01em);
-
-    //   margin-left: 30px;
-    // }
-
-    transform: translateY(5px);
-    margin-left: 50px;
-  }
-
-  &__item-descr {
-    // @include min-mobile {
-    //   @include short-font(16px, 0.01em);
-    // }
-
-    // @include short-font(18px, 0.01em);
-    margin-bottom: 8px;
-    &:last-child {
-      margin-bottom: 20px;
-    }
-  }
-}
-
-.ps-text {
-  font-style: italic;
-}
-
-.menu-contacts {
-  display: flex;
-  flex-direction: column;
-
-  margin: 0;
-}
-
-.menu-contacts__list {
-  padding: 0;
-  margin: 0;
-}
-
-.menu-contacts__box {
-  display: flex;
-  justify-content: center;
-}
-
-.menu-contacts__item {
-  display: inline-flex;
-  margin-left: 10px;
-
-  &:first-child {
-    margin-left: 0;
-  }
-}
-
-.menu-contacts__link {
-  //   @include short-font(16px, 0.01em);
-
-  //   @include short-font(19px, 0.01em);
-  color: red;
-  text-decoration: none;
-
-  //   @include min-mobile {
-  //     @include font(17px, 500, 0.01em);
-  //   }
-}
-
-.address-bm-box {
-  display: flex;
-  justify-content: center;
-
-  padding-top: 14px;
-  transform: translateX(-19px);
-}
-
-.map-bm {
-  padding: 10px 10px 10px 0;
-  transform: translate(5px, -5px);
-}
-
-// .icon-map {
-// //   @include min-mobile {
-// //     max-width: 32px;
-// //     height: 35px;
-// //   }
-// }
-
-// .address-link-bm {
-//   @include mobile {
-//     @include font(21px, 600, 0.03em);
-//   }
-
-// //   @include font(18px, 600, 0.03em);
-// }
-
-.menu-social {
-  display: flex;
-  justify-content: center;
-}
-
-.menu-social__list {
-  padding: 0;
-  list-style: none;
-}
-
-.menu-social__item {
-  display: inline-flex;
-}
-
-.menu-social__link {
-  //   @include font(12px, 500, 0.01em);
-
-  //   @include mobile {
-  //     @include font(18px, 500, 0.01em);
-  //   }
-
-  color: red;
-  text-decoration: none;
-}
-
-.menu-social__border {
-  border-right: 1px solid rgba(33, 33, 33, 0.2);
-  margin: 0 10px 0 10px;
 }

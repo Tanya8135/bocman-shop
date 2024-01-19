@@ -786,14 +786,13 @@ address {
 }
 
 .menu-container .menu-toggle {
-  color: #fff;
   position: absolute;
   top: 16px;
   right: 16px;
 }
 
-.price-bm-title {
-  padding-bottom: 12px;
+.menu-container .menu-toggle:hover, .menu-container .menu-toggle:active {
+  color: #f6973f;
 }
 
 .mobile-menu {
@@ -815,91 +814,55 @@ address {
   margin-bottom: 32px;
 }
 
-.mobile-menu__text {
-  width: 203px;
-}
-
-.mobile-menu__prise {
-  margin-left: 50px;
-  transform: translateY(5px);
-}
-
-.mobile-menu__item-descr {
-  margin-bottom: 8px;
-}
-
-.mobile-menu__item-descr:last-child {
-  margin-bottom: 20px;
-}
-
-.ps-text {
-  font-style: italic;
-}
-
-.menu-contacts {
+.burger-menu {
   flex-direction: column;
-  margin: 0;
+  justify-content: space-around;
+  padding-top: 12px;
   display: flex;
 }
 
-.menu-contacts__list {
-  margin: 0;
-  padding: 0;
+.burger-menu__item {
+  margin-bottom: 16px;
+  transform: translateY(-106px);
 }
 
-.menu-contacts__box {
+.burger-menu__item:last-child {
+  margin-bottom: 0;
+}
+
+.burger-menu__link {
+  letter-spacing: .03em;
+  color: #2c2b29;
+  padding: 5px 0;
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 1.1;
+}
+
+.bm-s__list {
+  justify-content: space-around;
+  display: flex;
+}
+
+.bm-s__link {
+  fill: #5b5b5b;
+  color: #5b5b5b;
+  transition: fill .3s cubic-bezier(.4, 0, .2, 1), color .3s cubic-bezier(.4, 0, .2, 1);
+}
+
+.bm-s__link:active, .bm-s__link:hover {
+  fill: #f6973f;
+  color: #f6973f;
+}
+
+.bm-s__tel {
+  letter-spacing: .05em;
   justify-content: center;
+  padding-top: 32px;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 1.1;
   display: flex;
-}
-
-.menu-contacts__item {
-  margin-left: 10px;
-  display: inline-flex;
-}
-
-.menu-contacts__item:first-child {
-  margin-left: 0;
-}
-
-.menu-contacts__link {
-  color: red;
-  text-decoration: none;
-}
-
-.address-bm-box {
-  justify-content: center;
-  padding-top: 14px;
-  display: flex;
-  transform: translateX(-19px);
-}
-
-.map-bm {
-  padding: 10px 10px 10px 0;
-  transform: translate(5px, -5px);
-}
-
-.menu-social {
-  justify-content: center;
-  display: flex;
-}
-
-.menu-social__list {
-  padding: 0;
-  list-style: none;
-}
-
-.menu-social__item {
-  display: inline-flex;
-}
-
-.menu-social__link {
-  color: red;
-  text-decoration: none;
-}
-
-.menu-social__border {
-  border-right: 1px solid #21212133;
-  margin: 0 10px;
 }
 
 /*# sourceMappingURL=index.b07a87f3.css.map */
