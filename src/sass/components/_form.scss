@@ -83,7 +83,7 @@
 
   font-size: 14px;
   font-weight: 500;
-  // color: $form-text;
+  color: $form-text;
 
   &__name {
     transform: translateY(0%);
@@ -105,7 +105,7 @@
       left: 0;
 
       transition: color 300ms cubic-bezier(0.4, 0, 0.2, 1);
-      
+
       color: #00000000;
       // overflow: hidden;
     }
