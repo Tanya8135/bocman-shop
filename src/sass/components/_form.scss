@@ -47,21 +47,24 @@
 }
 
 .data-field {
+  @include font(14px, 1.9, 0.07em, 500);
+
   display: block;
   position: relative;
   margin: 0 auto;
   margin-bottom: 20px;
+  // color: $bg-dark-gray;
 }
 
 .data-field__input {
-  @include font(14px, 1.9, 0.07em, 500);
+  // @include font(14px, 1.9, 0.07em, 500);
   border: none;
   border-radius: 0;
   border-bottom: 1px solid $form-line;
   background-color: transparent;
   min-width: 268px;
   min-height: 28px;
-  color: $bg-dark-gray;
+  // color: $bg-dark-gray;
   padding-left: 4px;
 
   &:focus,
