@@ -239,17 +239,17 @@ address {
   box-shadow: inset 0 0 3px 3px #0000001a, inset 0 10px 15px -3px #0000001a;
 }
 
-.custom-furnitere {
+.individ-furnitere {
   margin-bottom: 296px;
 }
 
-.custom-furnitere-container {
+.individ-furnitere-container {
   background-color: #5b5b5b;
   max-height: 453px;
   position: relative;
 }
 
-.custom-furnitere-box {
+.individ-furnitere-box {
   max-width: 515px;
   margin: 0 auto;
   display: block;
@@ -277,7 +277,7 @@ address {
   left: 5px;
 }
 
-.custom-furnitere-text-box {
+.individ-furnitere-text-box {
   padding: 0 18px;
 }
 
@@ -679,7 +679,7 @@ address {
 
 .footer-social-container {
   justify-content: center;
-  padding-top: 60px;
+  padding-top: 48px;
   display: flex;
 }
 
