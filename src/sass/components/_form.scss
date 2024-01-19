@@ -81,7 +81,7 @@
 
   font-size: 14px;
   font-weight: 500;
-  color: $form-text;
+  // color: $form-text;
 
   &__name {
     transform: translateY(0%);
@@ -102,6 +102,8 @@
       color: #00000000;
       overflow: hidden;
     }
+
+    color: $form-text;
   }
 
   &__comment {
