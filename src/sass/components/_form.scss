@@ -75,41 +75,69 @@
   }
 }
 
-.data-field-text {
-  // position: absolute;
-  // top: 0px;
-  // left: 0px;
-  // padding: 5px 0 1px 3px;
+// .data-field-text {
+// position: absolute;
+// top: 0px;
+// left: 0px;
+// padding: 5px 0 1px 3px;
 
-  // font-size: 14px;
-  // font-weight: 500;
-  // color: $form-text;
+// font-size: 14px;
+// font-weight: 500;
+// color: $form-text;
 
-  &__name {
-    transform: translateY(0%);
+.data-field-text__name {
+  transform: translateY(0%);
 
-    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-    .data-field:focus-within > & {
-      transform: translateY(-18px);
-      left: 0;
-    }
-
-    .data-field:not(:focus-within) > & {
-      left: 0px;
-    }
-
-    .data-field__input:not(:placeholder-shown) + & {
-      transform: translateY(-18px);
-      left: 0;
-
-      transition: color 300ms cubic-bezier(0.4, 0, 0.2, 1);
-
-      color: #00000000;
-      // overflow: hidden;
-    }
+  .data-field:focus-within > & {
+    transform: translateY(-18px);
+    left: 0;
   }
 
+  .data-field:not(:focus-within) > & {
+    left: 0px;
+  }
+
+  .data-field__input:not(:placeholder-shown) + & {
+    transform: translateY(-18px);
+    left: 0;
+
+    transition: color 300ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    color: #00000000;
+    // overflow: hidden;
+  }
+}
+
+// position: absolute;
+// top: 0px;
+// left: 0px;
+// padding: 5px 0 1px 3px;
+
+// font-size: 14px;
+// font-weight: 500;
+// color: $form-text;
+
+.data-field-text__comment {
+  transform: translate(0);
+
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  .data-field-text:focus-within > & {
+    transform: translate(0);
+    left: 0;
+    color: #00000000;
+  }
+
+  .data-field__input:not(:placeholder-shown) + & {
+    color: #00000000;
+    overflow: hidden;
+  }
+}
+// }
+
+.data-field-text {
   position: absolute;
   top: 0px;
   left: 0px;
@@ -117,24 +145,7 @@
 
   font-size: 14px;
   font-weight: 500;
-  color: $form-text !important;
-
-  &__comment {
-    transform: translate(0);
-
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
-    .data-field-text:focus-within > & {
-      transform: translate(0);
-      left: 0;
-      color: #00000000;
-    }
-
-    .data-field__input:not(:placeholder-shown) + & {
-      color: #00000000;
-      overflow: hidden;
-    }
-  }
+  color: $form-text;
 }
 
 // POLICY
