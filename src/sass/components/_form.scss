@@ -55,7 +55,8 @@
 }
 
 .data-field__input {
-  // @include font(14px, 1.9, 0.07em, 500);
+  @include font(14px, 1.9, 0.07em, 500);
+
   border: none;
   border-radius: 0;
   border-bottom: 1px solid $form-line;
@@ -63,7 +64,7 @@
   min-width: 268px;
   min-height: 28px;
   margin: 0;
-  color: $bg-dark-gray;
+  color: $primary-text;
   padding-left: 4px;
   outline: none;
 
@@ -71,7 +72,7 @@
   &:hover {
     border-bottom: 1px solid $accent;
     outline: none;
-    background-color: $bg-body;
+    background-color: transparent;
   }
 }
 
@@ -84,50 +85,14 @@
   font-size: 14px;
   font-weight: 500;
   color: $form-text;
-  opacity: 1;
 
-  &__name {
-    transform: translateY(0px);
+  transition: color 300ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 
-    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
-    .data-field:focus-within > & {
-      transform: translateY(-18px);
-      left: 0;
-    }
-
-    .data-field:not(:focus-within) > & {
-      left: 0px;
-    }
-
-    .data-field__input:not(:placeholder-shown) + & {
-      opacity: 0;
-      transition: transform 300ms cubic-bezier(0.4, 0, 0.2, 1),
-        opacity 300ms cubic-bezier(0.4, 0, 0.2, 1);
-      // color: $form-text;
-      left: 0;
-      transform: translateY(-18px);
-
-      // overflow: hidden;
-    }
-  }
-
-  &__comment {
-    transform: translate(0);
-
-    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
-    .data-field-text:focus-within > & {
-      transform: translate(0);
-      left: 0;
-      opacity: 0;
-    }
-
-    .data-field__input:not(:placeholder-shown) + & {
-      opacity: 0;
-      overflow: hidden;
-    }
-  }
+.data-field__input:focus-visible + .data-field-text,
+.data-field__input:not(:placeholder-shown) + .data-field-text {
+  color: transparent;
+  // transform: translateY(-100%);
 }
 
 // .data-field-text {
@@ -139,6 +104,50 @@
 //   font-size: 14px;
 //   font-weight: 500;
 //   color: $form-text;
+//   opacity: 1;
+
+//   &__name {
+//     transform: translateY(0px);
+
+//     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+//     .data-field:focus-within > & {
+//       transform: translateY(-18px);
+//       left: 0;
+//     }
+
+//     .data-field:not(:focus-within) > & {
+//       left: 0px;
+//     }
+
+//     .data-field__input:not(:placeholder-shown) + & {
+//       opacity: 0;
+//       transition: transform 300ms cubic-bezier(0.4, 0, 0.2, 1),
+//         opacity 300ms cubic-bezier(0.4, 0, 0.2, 1);
+//       // color: $form-text;
+//       left: 0;
+//       transform: translateY(-18px);
+
+//       // overflow: hidden;
+//     }
+//   }
+
+//   &__comment {
+//     transform: translate(0);
+
+//     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+//     .data-field-text:focus-within > & {
+//       transform: translate(0);
+//       left: 0;
+//       opacity: 0;
+//     }
+
+//     .data-field__input:not(:placeholder-shown) + & {
+//       opacity: 0;
+//       overflow: hidden;
+//     }
+//   }
 // }
 
 // POLICY
