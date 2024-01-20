@@ -68,6 +68,8 @@
   padding-left: 4px;
   outline: none;
 
+  // transition: color 300ms cubic-bezier(0.4, 0, 0.2, 1);
+
   &:focus,
   &:hover {
     border-bottom: 1px solid $accent;
@@ -76,23 +78,28 @@
   }
 }
 
-.data-field-text {
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  padding: 5px 0 1px 3px;
+// .data-field-text {
+//   position: absolute;
+//   top: 0px;
+//   left: 0px;
+//   padding: 5px 0 1px 3px;
 
-  font-size: 14px;
-  font-weight: 500;
-  color: $form-text;
+//   font-size: 14px;
+//   font-weight: 500;
+//   color: $form-text;
 
-  transition: color 300ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+//   transition: color 300ms cubic-bezier(0.4, 0, 0.2, 1);
+//   opacity: 1;
 
-.data-field__input:focus + .data-field-text,
-.data-field__input:not(:placeholder-shown) + .data-field-text {
-  color: transparent;
-}
+//   .input-has-value & {
+//     opacity: 0;
+//   }
+// }
+
+// .data-field__input:focus + .data-field-text,
+// .data-field__input:not(:placeholder-shown) + .data-field-text {
+//   color: transparent;
+// }
 
 // .data-field-text {
 //   position: absolute;
