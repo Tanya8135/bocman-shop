@@ -2,7 +2,7 @@
 import 'swiper/swiper-bundle.min.css';
 
 document.addEventListener('DOMContentLoaded', function () {
-    var swiper = new Swiper('.swiper', {
+    const swiper = new Swiper('.swiper', {
         pagination: {
             el: '.swiper-pagination',
         },
