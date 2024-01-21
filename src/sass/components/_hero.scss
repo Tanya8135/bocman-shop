@@ -1,6 +1,7 @@
 .hero {
   background-color: $bg-primary;
   margin-bottom: 95px;
+  padding: 0 18px;
 }
 
 .hero-title {
@@ -37,4 +38,18 @@
     box-shadow: inset 0px 0px 3px 3px rgba(0, 0, 0, 0.1),
       inset 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
   }
+}
+
+// .swiper {
+//   position: relative;
+// }
+
+.swiper-slide {
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: $accent !important;
 }

@@ -5,27 +5,44 @@
       <span class="letter">Л</span>учшая жизнь созданная для вас!
     </h1>
 
-    <div class="hero-img">
-      <ul class="hero-img-slider">
-        <li>
+    <div class="swiper hero-img">
+      <ul class="swiper-wrapper hero-img-slider">
+        <li class="swiper-slide">
           <img
-            src="./images/mob/hero-mob1_375.png"
+            srcset="
+              ./images/mob/hero-slide/hero-mob1_375.png   375w,
+              ./images/mob/hero-slide/hero-mob1@2_375.png 750w
+            "
+            sizes="(min-width: 375px) 375px, 100vh"
+            src="./images/mob/hero-slide/hero-mob1_375.png"
             alt="gray sofa and pouf "
           />
         </li>
-        <li>
+        <li class="swiper-slide">
           <img
-            src="./images/mob/hero-mob2_375.png"
+            srcset="
+              ./images/mob/hero-slide/hero-mob2_375.png   375w,
+              ./images/mob/hero-slide/hero-mob2@2_375.png 750w
+            "
+            sizes="(min-width: 375px) 375px, 100vh"
+            src="./images/mob/hero-slide/hero-mob2_375.png"
             alt="gray table and white pouf"
           />
         </li>
-        <li>
+        <li class="swiper-slide">
           <img
-            src="./images/mob/hero-mob3_375.png"
+            srcset="
+              ./images/mob/hero-slide/hero-mob3_375.png   375w,
+              ./images/mob/hero-slide/hero-mob3@2_375.png 750w
+            "
+            sizes="(min-width: 375px) 375px, 100vh"
+            src="./images/mob/hero-slide/hero-mob3_375.png"
             alt="gray table and green pouf"
           />
         </li>
       </ul>
+
+      <div class="swiper-pagination"></div>
     </div>
 
     <div class="btn-box">
