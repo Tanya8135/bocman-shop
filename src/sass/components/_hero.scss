@@ -1,6 +1,7 @@
 .hero {
   background-color: $bg-primary;
   margin-bottom: 95px;
+  padding: 0 18px;
 }
 
 .hero-title {
@@ -12,14 +13,6 @@
 
 .letter {
   color: $accent;
-}
-
-.test-img {
-  margin: 0 auto;
-  width: 375px;
-  height: 303px;
-  background-color: rgb(171, 166, 206);
-  //   margin-bottom: 15px;
 }
 
 .btn-box {
@@ -45,4 +38,19 @@
     box-shadow: inset 0px 0px 3px 3px rgba(0, 0, 0, 0.1),
       inset 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
   }
+}
+
+// .swiper {
+//   position: relative;
+// }
+
+.swiper-slide {
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  padding: 0 1px;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: $accent !important;
 }
