@@ -24,6 +24,7 @@
     "@parcel/transformer-sass": "^2.6.0",
     "buffer": "^6.0.3",
     "modern-normalize": "^2.0.0",
+    "parcel-plugin-imagemin": "^4.0.2",
     "parcel-reporter-clean-dist": "^1.0.4",
     "posthtml-include": "^1.7.4",
     "swiper": "^11.0.5"

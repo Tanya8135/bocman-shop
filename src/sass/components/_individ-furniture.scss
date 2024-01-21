@@ -84,7 +84,7 @@
   }
 }
 
-.test-img-section {
+.if-img {
   position: relative;
   top: 0px;
   width: 340px;
@@ -92,6 +92,7 @@
   background-color: rgb(171, 166, 206);
   margin: 0 auto;
   margin-bottom: 92px;
+  z-index: 1;
 
   &__0 {
     margin-bottom: 15px;
