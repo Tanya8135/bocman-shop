@@ -1,13 +1,17 @@
 .burger-menu {
+  position: relative;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
   padding-top: 16px;
-  height: 100vh;
+  height: 100%;
+
+  &__list {
+    margin-top: 16px;
+  }
 
   &__item {
-    transform: translateY(-90px);
-    margin-bottom: 16px;
+    // transform: translateY(-80px);
+    margin-bottom: 22px;
 
     &:last-child {
       margin-bottom: 0;
@@ -23,6 +27,7 @@
 }
 
 .bm-s {
+  padding-top: 252px;
   &__list {
     display: flex;
     justify-content: space-around;

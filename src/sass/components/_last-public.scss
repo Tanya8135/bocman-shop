@@ -1,13 +1,38 @@
 .last-public {
+  position: relative;
   padding: 0 18px;
   margin-bottom: 60px;
-  position: relative;
 }
 
-.card-prod-text {
+.lp-catalog-box {
+  padding-bottom: 32px;
+  max-width: 250px;
+
+  &:hover .lp-catalog {
+    transition: color 150ms cubic-bezier(0.4, 0, 0.2, 1);
+    color: $secondary-text;
+  }
+
+  &:hover .lp-arrow {
+    transition: fill 150ms cubic-bezier(0.4, 0, 0.2, 1);
+    fill: $accent;
+  }
+}
+
+.lp-catalog {
+  @include font(18px, 1.1, 0.05em, 700);
+
   display: flex;
-  justify-content: center;
-  padding-bottom: 40px;
+  padding: 5px;
+  // max-width: 250px;
+  color: $accent;
+  cursor: none;
+  outline: none;
+}
+
+.lp-arrow {
+  fill: $arrow-catalog;
+  margin-left: 8px;
 }
 
 .lp-card {

@@ -16,7 +16,7 @@
   min-width: 38px;
 
   margin: 0;
-  // padding: 10px 10px 0 0;
+  // padding: 10px;
   fill: $btn-close;
   background-color: transparent;
   cursor: none;
@@ -30,6 +30,10 @@
     background-color: transparent;
   }
 }
+
+// .menu-close {
+//   padding: 10px;
+// }
 
 .menu-container {
   // @include tabletMin {
@@ -57,10 +61,12 @@
   transform: translateX(0);
 }
 
-.menu-container .menu-toggle {
+.menu-container .menu-close {
   position: absolute;
-  top: 16px;
-  right: 16px;
+  top: 26px;
+  right: 26px;
+  padding: 5px;
+  z-index: 1111;
 
   &:hover,
   &:active {
