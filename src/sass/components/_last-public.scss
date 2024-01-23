@@ -36,14 +36,25 @@
 }
 
 .lp-card {
+  position: relative;
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   justify-content: center;
+
+  &:hover .overlay-text,
+  &:focus .overlay-text {
+    transform: translateY(0);
+  }
+
+  &:active .overlay-text {
+    transform: translateY(100%);
+  }
 }
 
 .lp-name {
   @include fontMini(18px, 1.2, 500);
 
+  margin: 0 auto;
   text-transform: uppercase;
   color: $secondary-text;
   padding-top: 16px;
@@ -76,4 +87,34 @@
   height: 278px;
   background-color: $bg-slide-card;
   border-radius: 4px;
+}
+
+// .btn-loadMore {
+//   position: absolute;
+//   bottom: 70px;
+//   right: 10px;
+//   background-color: transparent;
+// }
+
+.overlay-card {
+  position: relative;
+  overflow: hidden;
+}
+
+.overlay-text {
+  @include font(14px, 1.1, 0.03, 400);
+  color: $tertiary-text;
+  padding: 15px;
+
+  position: absolute;
+  top: 0px;
+  left: 0;
+  min-width: 340px;
+  min-height: 278px;
+  // height: 100%;
+
+  background-color: $bg-overlay;
+
+  transform: translateY(130%);
+  transition: transform 300ms cubic-bezier(0.4, 0, 0.2, 1);
 }
