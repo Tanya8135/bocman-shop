@@ -23,6 +23,7 @@
   "dependencies": {
     "@parcel/transformer-sass": "^2.6.0",
     "buffer": "^6.0.3",
+    "gsap": "^3.12.5",
     "modern-normalize": "^2.0.0",
     "parcel-plugin-imagemin": "^4.0.2",
     "parcel-reporter-clean-dist": "^1.0.4",

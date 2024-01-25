@@ -24,7 +24,6 @@
 
   display: flex;
   padding: 5px;
-  // max-width: 250px;
   color: $accent;
   cursor: none;
   outline: none;
@@ -36,14 +35,25 @@
 }
 
 .lp-card {
+  position: relative;
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   justify-content: center;
+
+  &:hover .overlay-text,
+  &:focus .overlay-text {
+    transform: translateY(0);
+  }
+
+  &:active .overlay-text {
+    transform: translateY(100%);
+  }
 }
 
 .lp-name {
   @include fontMini(18px, 1.2, 500);
 
+  margin: 0 auto;
   text-transform: uppercase;
   color: $secondary-text;
   padding-top: 16px;
@@ -64,12 +74,16 @@
   right: 0;
 }
 
-// .lp-item {
-//   display: flex;
-//   justify-content: center;
-// }
+// OVERLAY
+.overlay-card {
+  // position: relative;
+  // overflow: hidden;
+  border-radius: 4px;
+}
 
 .lp-img-box {
+  position: relative;
+  overflow: hidden;
   display: flex;
   justify-content: center;
   min-width: 340px;
@@ -77,3 +91,81 @@
   background-color: $bg-slide-card;
   border-radius: 4px;
 }
+
+.overlay-text {
+  @include font(14px, 1.1, 0.03, 400);
+
+  overflow: visible;
+  color: $tertiary-text;
+  padding: 15px;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 340px;
+  // height: 100%;
+  min-height: 278px;
+
+  background-color: $bg-overlay;
+
+  transform: translateY(100%);
+  transition: transform 300ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:focus {
+    transform: translateY(-100%);
+  }
+}
+
+.test-btn {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  // &:active.overlay-text {
+  //   transform: translateY(0%);
+  // }
+}
+
+// MODAL
+// .modal {
+//   display: none;
+//   opacity: 0;
+//   position: absolute;
+//   top: 0;
+//   left: 0;
+//   min-width: 340px;
+//   min-height: 278px;
+//   z-index: 2;
+//   display: flex;
+// }
+
+// .modal__inner {
+//   background-color: $bg-overlay;
+//   width: 100%;
+//   border-radius: 4px;
+//   color: $tertiary-text;
+// }
+
+// .overlay-text {
+//   @include font(14px, 0, 0.03, 400);
+
+//   position: absolute;
+//   top: 15;
+//   left: 15;
+//   color: $tertiary-text;
+// }
+
+// .button {
+//   position: absolute;
+//   bottom: 65px;
+//   right: 8px;
+//   padding: 5px 10px;
+//   border: none;
+//   border-radius: 4px;
+//   z-index: 4;
+//   outline: none;
+
+//   &:active {
+//     box-shadow: none;
+//   }
+// }
