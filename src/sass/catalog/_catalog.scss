@@ -1,0 +1,24 @@
+.catalog-poufs {
+  padding: 0 17px 70px 17px;
+
+  &__title {
+    @include font(30px, 1.5, 0.05em, 300);
+
+    color: $secondary-text;
+    text-transform: uppercase;
+    padding: 0 0 32px 15px;
+  }
+}
+
+.catalog-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 20px;
+  grid-row-gap: 52px;
+  max-width: 340px;
+  margin: 0 auto;
+}
+
+.catalog-item {
+  transform: translateX(0.5px);
+}

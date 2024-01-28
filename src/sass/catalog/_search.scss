@@ -1,0 +1,40 @@
+.serach-container {
+  padding: 32px 0 60px 0;
+}
+
+.search-form {
+  position: relative;
+  display: flex;
+  align-items: center;
+  // justify-content: center;
+  margin: 0 auto;
+  max-width: 270px;
+  //   width: 100%;
+
+  &__input {
+    @include font(16px, 1.1, 0.08em, 400);
+
+    min-width: 270px;
+    min-height: 34px;
+    color: $primary-text;
+    padding-left: 12px;
+    border: 1px solid $form-line;
+    border-radius: 4px;
+    outline: none;
+
+    &:focus {
+      border: 1px solid $border-search;
+    }
+  }
+
+  &__btn {
+    position: absolute;
+    right: 0;
+
+    max-width: 24px;
+    max-height: 24px;
+    background-color: transparent;
+    border: none;
+    fill: $search-icon;
+  }
+}
