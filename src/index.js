@@ -1,8 +1,8 @@
 import './sass/index.scss';
 
-import './js/burger-menu';
-import './js/heroSlider';
-import './js/last-public';
+import './js/components/burger-menu';
+import './js/components/heroSlider';
+import './js/components/last-public';
 // import './js/info-card';
 // import './js/load-hiden';
 // import './js/gsap';
