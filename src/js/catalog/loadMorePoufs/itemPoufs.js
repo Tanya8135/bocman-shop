@@ -1,65 +1,5 @@
-<section class="catalog">
-  <div class="catalog-container">
-    <div class="catalog-poufs">
-      <h1 hidden></h1>
-      <h2 class="catalog-poufs__title">Пуфи</h2>
-
-      <ul class="catalog-list is-hedden">
-        <li class="catalog-item">
-          <article>
-            <img
-              srcset="
-                ./images/mob/catalog/pouf/pink_poug_160.png   160w,
-                ./images/mob/catalog/pouf/pink_poug@2_160.png 320w
-              "
-              sizes="(min-width: 375px) 160px, 100vw"
-              src="./images/mob/catalog/pouf/pink_poug_160.png"
-              alt="Pink pouf"
-            />
-          </article>
-        </li>
-        <li class="catalog-item">
-          <article>
-            <img
-              srcset="
-                ./images/mob/catalog/pouf/black_pouf_160.png   160w,
-                ./images/mob/catalog/pouf/black_pouf@2_160.png 320w
-              "
-              sizes="(min-width: 375px) 160px, 100vw"
-              src="./images/mob/catalog/pouf/black_pouf_160.png"
-              alt="Black pouf"
-            />
-          </article>
-        </li>
-        <li class="catalog-item">
-          <article>
-            <img
-              srcset="
-                ./images/mob/catalog/pouf/gray_pouf_160.png   160w,
-                ./images/mob/catalog/pouf/gray_pouf@2_160.png 320w
-              "
-              sizes="(min-width: 375px) 160px, 100vw"
-              src="./images/mob/catalog/pouf/gray_pouf_160.png"
-              alt="Gray pouf"
-            />
-          </article>
-        </li>
-        <li class="catalog-item">
-          <article>
-            <img
-              srcset="
-                ./images/mob/catalog/pouf/blue_pouf_160.png   160w,
-                ./images/mob/catalog/pouf/blue_pouf@2_160.png 320w
-              "
-              sizes="(min-width: 375px) 160px, 100vw"
-              src="./images/mob/catalog/pouf/blue_pouf_160.png"
-              alt="Blue pouf"
-            />
-          </article>
-        </li>
-
-        <!-- JS -->
-        <!-- <li class="catalog-item">
+const listPoufs = `
+<li class="catalog-item">
           <article>
             <img
               srcset="
@@ -162,16 +102,7 @@
               alt=""
             />
           </article>
-        </li> -->
-      </ul>
-    </div>
-    <button type="button" class="btn-loadMore">
-      Показати більше
-      <div class="btn-loadMore__arrow">
-        <svg width="24" height="22">
-          <use href="./images/icons.svg#icon-arrow"></use>
-        </svg>
-      </div>
-    </button>
-  </div>
-</section>
+        </li>
+`
+
+export default listPoufs;
