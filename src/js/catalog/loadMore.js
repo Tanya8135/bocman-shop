@@ -1,11 +1,29 @@
 import listPoufs from './loadMorePoufs/itemPoufs';
 
-const btnLoadMore = document.querySelector('.btn-loadMore');
-const addListPoufs = document.querySelector('.catalog-list');
+const poufContainer = document.querySelector('.pouflist');
 
-btnLoadMore.addEventListener('click', function () {
-    addListPoufs.computedStyleMap.display = 'block';
-    const newListTest = document.createElement('ul');
-    newListTest.innerHTML = listPoufs;
-    addListPoufs.appendChild(newListTest);
-})
+const itemsToShow = 4;
+let itemsShow = 0;
+
+function showMoreItems() {
+    const tempContainer = document.createElement('div');
+    tempContainer.innerHTML = listPoufs;
+
+    // Конвертуємо NodeList у масив
+    const additionalItems = Array.from(tempContainer.children).slice(itemsShow, itemsShow + itemsToShow);
+
+    additionalItems.forEach((item) => {
+        const li = document.createElement('li');
+        li.className = 'catalog-item';
+        li.innerHTML = item.innerHTML; // Використовуємо innerHTML для отримання HTML-коду елемента
+        poufContainer.appendChild(li);
+    })
+
+    itemsShow += itemsToShow;
+
+    if (itemsShow >= listPoufs.length) {
+        document.querySelector('.btn-loadMore').style.display = 'none';
+    }
+}
+
+document.querySelector(".btn-loadMore").addEventListener('click', showMoreItems);
