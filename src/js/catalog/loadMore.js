@@ -1,29 +1,41 @@
-import listPoufs from './loadMorePoufs/itemPoufs';
+import listPoufs from "./loadMorePoufs/itemPoufs";
+// import img from '../../images'
 
-const poufContainer = document.querySelector('.pouflist');
+const existingUl = document.querySelector('.catalog-list');
+const loadMoreBtn = document.querySelector('.btn-loadMore');
 
 const itemsToShow = 4;
-let itemsShow = 0;
+let itemShow = 0;
 
-function showMoreItems() {
-    const tempContainer = document.createElement('div');
-    tempContainer.innerHTML = listPoufs;
+function showMoreTems() {
+    const additionalItems = listPoufs.slice(itemShow, itemShow + itemsToShow);
 
-    // Конвертуємо NodeList у масив
-    const additionalItems = Array.from(tempContainer.children).slice(itemsShow, itemsShow + itemsToShow);
-
-    additionalItems.forEach((item) => {
+    const itemsAdd = listPoufs.map(item => {
         const li = document.createElement('li');
         li.className = 'catalog-item';
-        li.innerHTML = item.innerHTML; // Використовуємо innerHTML для отримання HTML-коду елемента
-        poufContainer.appendChild(li);
-    })
 
-    itemsShow += itemsToShow;
+        const article = document.createElement('article');
+        article.innerHTML = `
+    <img
+    srcset="${item.srcset}"
+    sizes="${item.sizes}"
+    src="${item.src}"
+    alt="${item.alt}"
+  />
+    `;
 
-    if (itemsShow >= listPoufs.length) {
-        document.querySelector('.btn-loadMore').style.display = 'none';
+        li.appendChild(article);
+        return li;
+    });
+
+    existingUl.append(...itemsAdd);
+
+    itemShow += itemsToShow;
+
+    if (itemShow >= listPoufs.length) {
+        loadMoreBtn.style.display = 'none';
     }
 }
 
-document.querySelector(".btn-loadMore").addEventListener('click', showMoreItems);
+loadMoreBtn.addEventListener('click', showMoreTems);
+
