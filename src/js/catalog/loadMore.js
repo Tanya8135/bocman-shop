@@ -1,10 +1,9 @@
 import listPoufs from "./loadMorePoufs/itemPoufs";
-// import img from '../../images'
 
 const existingUl = document.querySelector('.catalog-list');
 const loadMoreBtn = document.querySelector('.btn-loadMore');
 
-const itemsToShow = 4;
+const itemsToShow = 8;
 let itemShow = 0;
 
 function showMoreTems() {
@@ -38,4 +37,6 @@ function showMoreTems() {
 }
 
 loadMoreBtn.addEventListener('click', showMoreTems);
+
+
 
