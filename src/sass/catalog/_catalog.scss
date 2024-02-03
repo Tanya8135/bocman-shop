@@ -24,7 +24,7 @@
 }
 
 .list-loadMore {
- display: flex;
+  display: flex;
 }
 
 .catalog-item {
@@ -53,4 +53,24 @@
 
 .test {
   display: block;
+}
+
+.testbutton {
+  position: relative;
+  padding: 25px;
+  max-width: 25px;
+  border-radius: 50px;
+  background-color: $bg-btn;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.arrow-back {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  // color: white;
+  fill: $arrow-back;
+  z-index: 11111;
 }
