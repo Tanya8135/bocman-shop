@@ -2,8 +2,12 @@
   padding: 0 17px 70px 17px;
 }
 
+.form-box-catalog {
+  margin-bottom: 60px;
+}
+
 .catalog-poufs {
-  padding-bottom: 32px;
+  // padding-bottom: 32px;
 
   &__title {
     @include font(30px, 1.5, 0.05em, 300);
@@ -21,6 +25,7 @@
   grid-row-gap: 52px;
   max-width: 340px;
   margin: 0 auto;
+  padding-bottom: 52px;
 }
 
 .list-loadMore {
@@ -43,6 +48,8 @@
   align-items: center;
   padding: 20px;
   margin: 0 auto;
+  margin-bottom: 32px;
+  cursor: pointer;
 
   &__arrow {
     display: flex;
@@ -51,12 +58,31 @@
   }
 }
 
-.test {
-  display: block;
-}
+// .btn-loadMore-table {
+//   @include font(18px, 1.5, 0.08em, 500);
 
-.testbutton {
+//   color: $secondary-text;
+//   background-color: transparent;
+//   outline: none;
+//   border: none;
+
+//   display: flex;
+//   align-items: center;
+//   padding: 20px;
+//   margin: 0 auto;
+//   margin-bottom: 32px;
+//   cursor: pointer;
+
+//   &__arrow {
+//     display: flex;
+//     align-items: center;
+//     padding-left: 8px;
+//   }
+// }
+
+.btnBack {
   position: relative;
+  right: -291px;
   padding: 25px;
   max-width: 25px;
   border-radius: 50px;
@@ -73,4 +99,8 @@
   // color: white;
   fill: $arrow-back;
   z-index: 11111;
+}
+
+.catalog-sofa {
+  padding-bottom: 32px;
 }

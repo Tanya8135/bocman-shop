@@ -3,7 +3,7 @@ import listPoufs from "./loadMorePoufs/itemPoufs";
 const existingUl = document.querySelector('.catalog-list');
 const loadMoreBtn = document.querySelector('.btn-loadMore');
 
-const itemsToShow = 8;
+const itemsToShow = 4;
 let itemShow = 0;
 
 function showMoreItems() {
@@ -35,7 +35,7 @@ function showMoreItems() {
         loadMoreBtn.style.display = 'none';
         const btnBack = document.createElement('button');
         existingUl.append(btnBack);
-        btnBack.className = 'testbutton';
+        btnBack.className = 'btnBack';
         btnBack.innerHTML = `
             <svg width="30" height="30" class="arrow-back">
                 <use href="./images/icons.svg#icon-arrow-back"></use>
