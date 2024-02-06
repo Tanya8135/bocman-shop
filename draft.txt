@@ -1,0 +1,20 @@
+{
+  "extends": [
+    "@parcel/config-default"
+  ],
+  "reporters": [
+    "...",
+    "parcel-reporter-clean-dist"
+  ],
+  "transformers": {
+    "*.jpg": [
+      "parcel-transformer-url-loader"
+    ],
+    "*.jpeg": [
+      "parcel-transformer-url-loader"
+    ],
+    "*.png": [
+      "parcel-transformer-url-loader"
+    ]
+  }
+}

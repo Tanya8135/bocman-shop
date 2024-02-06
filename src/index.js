@@ -7,3 +7,5 @@ import './js/components/last-public';
 // import './js/load-hiden';
 // import './js/gsap';
 // import './js/modal-test';
+import './js/catalog/loadMorePoufs';
+import './js/catalog/loadMoreTables';
