@@ -20,5 +20,5 @@
             <svg width="30" height="30" class="arrow-back">
                 <use href="./images/icons.svg#icon-arrow-back"></use>
             </svg>
-        `,e.addEventListener("click",()=>{l.scrollIntoView({behavior:"smooth"})})}});
-//# sourceMappingURL=catalog.c974d628.js.map
+        `,e.addEventListener("click",()=>{l.scrollIntoView({behavior:"smooth"})})}}),(()=>{let e={openCardProd:document.querySelector(".art-position"),closeCardProd:document.querySelector(".cardBtnClose"),modal:document.querySelector("[data-modal]")};function a(){e.modal.classList.toggle("is-hidden")}e.openCardProd.addEventListener("click",a),e.closeCardProd.addEventListener("click",a)})();
+//# sourceMappingURL=catalog.4ad0366b.js.map
