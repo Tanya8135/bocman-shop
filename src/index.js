@@ -9,3 +9,4 @@ import './js/components/last-public';
 // import './js/modal-test';
 import './js/catalog/loadMorePoufs';
 import './js/catalog/loadMoreTables';
+import './js/openCard';
